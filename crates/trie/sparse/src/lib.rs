@@ -16,6 +16,9 @@ pub use traits::*;
 
 pub mod blinded;
 
+mod either;
+pub use either::*;
+
 #[cfg(feature = "metrics")]
 mod metrics;
 
